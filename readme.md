@@ -1,0 +1,17 @@
+⚙️ Installation & Setup
+1. Create the Conda Environment
+
+Open Anaconda Prompt and run:
+
+conda create -n airfly python=3.11 -y
+
+Activate the environment:
+conda activate airfly
+3. Install Required Packages
+python -m pip install pandas numpy matplotlib jupyter notebook voila ipywidgets ipykernel
+4. Register the Jupyter Kernel
+python -m ipykernel install --sys-prefix --name airfly --display-name "Python (airfly)"
+5. Launch AIRFLY
+Run:
+python -m voila 23CSU034_Ansh_AIRFLY.ipynb
+The application will open in your browser as a web interface.
